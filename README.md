@@ -8,7 +8,7 @@ The demographic makeup of neighborhoods in New York City can change dramatically
 
 
 ## Overview
-Using compiled U.S. Census Data and American Community Survey Responses, I calculated the percentage change in 
+Using compiled U.S. Census Data and American Community Survey Responses, I calculated the percentage change in each demographic category. These percent changes were then used to 
 
 
 ## Repository Structure

@@ -20,9 +20,9 @@ The demographic makeup of neighborhoods in New York City can change dramatically
 Gentrification leads to displacement of whole communities that are under represented in local politics and most at risk for poverty related complications. A model that can identify a neighborhood at risk for gentrification would allow interested groups to reallocate resources to prevent displacement. A method that would be able to do so with the provided data would be helpful to community groups and government agencies to help those at risk for displacement.
 
 - Who would this model serve?
-        1. Stakeholders include residents that are in areas that are susceptible to gentrification.
-        2. Community groups that exist to empower residents to battle gentrification. 
-        3. Government agencies tasked with keeping housing affordable in under served communities. 
+        1. Stakeholders include residents that are in areas that are susceptible to gentrification.  
+        2. Community groups that exist to empower residents to battle gentrification.  
+        3. Government agencies tasked with keeping housing affordable in under served communities.  
 
 
 ## Data

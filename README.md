@@ -28,7 +28,8 @@ Gentrification leads to displacement of whole communities that are under represe
 
 - What does this model take into account?  
         1. The model tracks the trends in neighborhoods that have gentrified and compares them with current neighborhoods.  
-        2. 
+        2. While full counts of demographics may seem useful, it is actually more important to use the percent changes of each of the demographic categories.  
+        3. Through feature selection and determining feature importance, I will try and conclude what changes in the demographic is more important in determining gentrification. 
 
 
 ## Data

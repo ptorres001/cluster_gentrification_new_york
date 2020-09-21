@@ -13,7 +13,9 @@ The demographic makeup of neighborhoods in New York City can change dramatically
 - Image -- contains images created during EDA and those linked in README
 - LTDB_data -- contains all of the data cleaning steps and techniques with markdowns explaining reasoning
 - EDA -- 
-- Clusters -- contains all the code that determine the gentrification level of census tracts while looking at other census tracts with similar 
+- Clusters -- contains all the code that determine the gentrification level of census tracts while looking at other census tracts with similar feature levels
+- Classifying -- on a parallel track, determining the gentrification level using predetermined metrics established in academic papers
+
 
 ## Data
 The majority of the data came from 

@@ -8,6 +8,8 @@ The demographic makeup of neighborhoods in New York City can change dramatically
 
 
 ## Overview
+Using compiled U.S. Census Data and American Community Survey Responses, I calculated the percentage change in 
+
 
 ## Repository Structure
 - Image -- contains images created during EDA and those linked in README
@@ -23,6 +25,10 @@ Gentrification leads to displacement of whole communities that are under represe
         1. Stakeholders include residents that are in areas that are susceptible to gentrification.  
         2. Community groups that exist to empower residents to battle gentrification.  
         3. Government agencies tasked with keeping housing affordable in under served communities.  
+
+- What does this model take into account?  
+        1. The model tracks the trends in neighborhoods that have gentrified and compares them with current neighborhoods.  
+        2. 
 
 
 ## Data

@@ -12,9 +12,9 @@ Using compiled U.S. Census Data and American Community Survey Responses, I calcu
 
 
 ## Repository Structure
-- Image -- contains images created during EDA and those linked in README
+- Images -- contains images created during EDA and those linked in README
 - LTDB_data -- contains all of the data cleaning steps and techniques with markdowns explaining reasoning
-- EDA -- 
+- EDA -- exploring all of the features and how they affect each other. 
 - Clusters -- contains all the code that determine the gentrification level of census tracts while looking at other census tracts with similar feature levels
 - Classifying -- on a parallel track, determining the gentrification level using predetermined metrics established in academic papers
 
@@ -33,7 +33,7 @@ Gentrification leads to displacement of whole communities that are under represe
 
 
 ## Data
-The majority of the data came from 
+The data used to determine the classifications was obtained from  
 
 ## Preprocessing (Data Cleaning & Feature Engineering)
 

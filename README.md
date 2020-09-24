@@ -59,6 +59,6 @@ While informative about the overall population growth, it doesn't speak on the m
 
 The graph above is a count of all of the census tracts that have seen an increase in white and non-white populations. From this data, we see that there is an increase in non-white populations in more census tracts –– which goes against what you would expect from a gentrifying city. However, let's raise the bar. 
 
-![Pop Change By Race 50%](Images/50%_increase_count_race_pop_changes.png)
+![Pop Change By Race 50%](Images/50_increase_count_race_pop_changes.png)
 
 From this graphic, we can see that when the bar raises from any increase to 50% or more there is a large difference in the amount of white vs non-white populations. We should take this to mean that while there are small increases in non-white populations across the census tracts, there is a more focused increase to certain areas for white populations. 

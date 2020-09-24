@@ -61,4 +61,4 @@ The graph above is a count of all of the census tracts that have seen an increas
 
 ![Pop Change By Race 50%](Images/50%_increase_count_race_pop_changes.png)
 
-From this graphic, we can see that when the bar raises from any increase to 50% or more, there is a large difference in the amount of white vs non-white populations. 
+From this graphic, we can see that when the bar raises from any increase to 50% or more there is a large difference in the amount of white vs non-white populations. We should take this to mean that while there are small increases in non-white populations across the census tracts, there is a more focused increase to certain areas for white populations. 

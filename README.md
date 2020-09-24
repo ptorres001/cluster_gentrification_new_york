@@ -8,7 +8,9 @@ The demographic makeup of neighborhoods in New York City can change dramatically
 
 
 ## Overview
-Using compiled U.S. Census Data and American Community Survey Responses, I calculated the percentage change in each demographic category. These percent changes were then used to 
+Using compiled U.S. Census Data and American Community Survey Responses, I calculated the percentage change in each demographic category. These percent changes were then used to determine how the makeup of each census tract changed over the course of ten years from 2000 to 2010. 
+
+Next, came the clustering of census tracts. Using the features, both given and engineered, I ran the observations through several algorithms in order to determine the best way to cluster them in order to determine gentrification status. 
 
 
 ## Repository Structure
@@ -16,7 +18,7 @@ Using compiled U.S. Census Data and American Community Survey Responses, I calcu
 - 01_Data_Cleaning_Processing -- contains all of the data cleaning steps and techniques with markdowns explaining reasoning
 - 02_EDA -- exploring all of the features and how they affect each other. 
 - 03_Clusters -- contains all the code that determine the gentrification level of census tracts while looking at other census tracts with similar feature levels
-- 04_Classifying -- on a parallel track, determining the gentrification level using predetermined metrics established in academic papers
+- 04_Classifying -- on a parallel track, determining the gentrification level using predetermined metrics established in academic papers. These metrics will be the real values with which I compare my algorithm
 
 ## Business Case
 Gentrification leads to displacement of whole communities that are under represented in local politics and most at risk for poverty related complications. A model that can identify a neighborhood at risk for gentrification would allow interested groups to reallocate resources to prevent displacement. A method that would be able to do so with the provided data would be helpful to community groups and government agencies to help those at risk for displacement.
@@ -33,8 +35,30 @@ Gentrification leads to displacement of whole communities that are under represe
 
 
 ## Data
-The data used to determine the classifications was obtained from  
+The data used to determine the classifications was obtained from Longitudinal Tract Database (LTDB) and the United States Census Bureau. Both full count data and sample data was used in this project. 
 
 ## Preprocessing (Data Cleaning & Feature Engineering)
 
-Standard data cleaning in order to fill in missing values, dispose of observations that were heavily flawed, and remove observations that did not include residential areas but were in fact parks, prisons, or heavily commercial areas. 
+Standard data cleaning in order to fill in missing values, dispose of observations that were heavily flawed, and remove observations that did not include residential areas but were in fact parks, prisons, or heavily commercial areas.  
+  
+The next step was to change the actual counts of the data to percentage counts. This included calculating the percentage each demographic and housing type existed in each census tract. This process was repeated for the full count and sample data for both 2000 & 2010.  
+  
+Finally, I created percent changes between the two census years. The increase or decrease of a sub-group is the most important for gentrification metrics. 
+
+## Exploratory Data Analysis
+
+First, we took a cursory glance at the distribution of population changes from 2000 to 2010. 
+
+![Pop Change Distribution](Images/Population_change_dist.png)
+
+As you can see, the distribution is centered about zero with tails on either side. There are a lot more extreme outliers in the positive direction. 
+
+While informative about the overall population growth, it doesn't speak on the make up of the different census tracts. First, we take a look at the changes based on race. For clarity, we grouped non-white populations together. 
+
+![Pop Change By Race](Images/count_positive_race_pop_changes.png)
+
+The graph above is a count of all of the census tracts that have seen an increase in white and non-white populations. From this data, we see that there is an increase in non-white populations in more census tracts –– which goes against what you would expect from a gentrifying city. However, let's raise the bar. 
+
+![Pop Change By Race](Images/50%_increase_count_race_pop_changes.png)
+
+From this graphic, we can see that when the bar raises from any increase to 50% or more, there is a large difference in the amount of white vs non-white populations. 

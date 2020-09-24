@@ -75,7 +75,7 @@ There are a range of metrics that are generally accepted as being indicators of 
 
 ### Change in Racial Makeup
 
-![White Population Increase Brooklyn](Images/brooklyn_map_minority_change.png)
+![White Population Increase Brooklyn](Images/brooklyn_map_white_change.png)
 
 
 

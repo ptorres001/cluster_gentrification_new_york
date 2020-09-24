@@ -61,5 +61,24 @@ The graph above is a count of all of the census tracts that have seen an increas
 
 ![Pop Change By Race 50%](Images/50_increase_count_race_pop_changes.png)
 
-
 From the graphic on the left, we can see that when the bar raises from any increase to 50% or more there is a large difference in the amount of white vs non-white populations. We should take this to mean that while there are small increases in non-white populations across the census tracts, there is a more focused increase to certain areas for white populations.
+
+### Metric 
+
+There are a range of metrics that are generally accepted as being indicators of gentrification in neighborhoods. These metrics can be found in this [report](https://www.enterprisecommunity.org/download?fid=10224&nid=7602). Which has compiled different studies on gentrification and what they considered to be the signs gentrification. 
+
+**Signs of Gentrification**
+- Change in the white population beyond the median
+- Change in family income beyond the median
+- Change in college graduates beyond the median
+- Change in poverty rate beyond the median
+
+### Change in Racial Makeup
+
+![White Population Increase Brooklyn](Images/brooklyn_map_minority_change.png)
+
+
+
+
+
+

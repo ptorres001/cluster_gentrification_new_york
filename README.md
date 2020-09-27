@@ -4,7 +4,7 @@
 The goal of this project is to build a model that will be able to detect which neighborhoods are undergoing the process of gentrification. 
 
 ## Project
-The demographic makeup of neighborhoods in New York City can change dramatically in the years between the decennial national census'. Over the most recent decades, it has occurred because New York City has rebounded from the disastrous 1970's and areas have become desirable again. This means that what were once under served communities have become hotspots for development and expansion of upscale living. This phenomenon is known as gentrification. 
+The demographic makeup of neighborhoods in New York City can change dramatically in the years between the decennial national census'. Over the most recent decades, it has occurred because New York City has rebounded from the disastrous 1970's and areas have become desirable again. This means that what were once under served communities have become hot spots for development and expansion of upscale living. This phenomenon is known as gentrification. 
 
 
 ## Overview
@@ -96,3 +96,45 @@ Below you can see the change in income from 2000 to 2010 in Brooklyn and Manhatt
 
 Most interesting to see is the incredible increase in **Hell's Kitchen** in Manhattan. What was previously train yards and undeveloped land is now luxury buildings. 
 
+## Clustering
+
+The data is unlabeled and as such is subject to unsupervised learning. I've employed several clustering algorithms using the entire set of features from the data. As well as different subsets that use metrics that gentrification is usually based upon. 
+
+Methods to cluster included:
+
+- Principal Components
+- Hierarchical Clustering
+- KMeans Clustering
+
+
+### Feature Subset 1
+
+These features included:
+
+- Family Income
+- Home Value
+- College Graduates
+- Monthly Rent
+- Home Ownership
+- Non-White Population
+
+
+### Feature Subset 2
+Same as Subset 1 but also: 
+
+- White Population
+
+### Feature Subset 3
+Same as Subset 2 but also:
+
+- Non-White Poverty Population
+
+### Scoring Cluster Creation
+
+In order to determine whether a cluster was viable, we used it's silhouette score. A silhouette score is the determination of the distance between points in a cluster against the distance to another cluster. 
+
+|Model | Silhouette Score|
+|------|-----------------|
+|Hierarchical|0.03|
+|Hierarchical - Subset 1| 0.04|
+|------------------------

@@ -143,7 +143,21 @@ In order to determine whether a cluster was viable, we used it's silhouette scor
 |KMeans - Subset 2|.40|
 
 
+# Academic Studies and Comparisons
 
+Gentrification has been studied by anthropologists and urban designers in specific since the 1960's. Many have come up with metrics to use to determine if a neighborhood is vulnerable to gentrification of if it is currently undergoing gentrification. 
+
+We will be using one of the most recent studies by Ellen & Ding (2016) titled *Advancing Our Understanding of Gentrification*. In it they lay out metrics to be applied to census tracts. 
+
+#### Potential to Gentrify
+- Mean family income falls below 40th percentile of metropolitan area
+
+#### Currently Gentrifying (From Start to End Date)
+At least a 10 point increase in ratio of census tract median to city median of:
+- Average family income
+- White Population
+- College Educated Residents
+- Median Monthly Rent
 
 # Further Recommendations 
 

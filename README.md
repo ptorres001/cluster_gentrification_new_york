@@ -73,12 +73,26 @@ There are a range of metrics that are generally accepted as being indicators of 
 - Change in college graduates beyond the median
 - Change in poverty rate beyond the median
 
+Below we will examine some graphics on these metrics.
+
 ### Change in Racial Makeup
+
+Below you can see the change in the white population in Brooklyn and Manhattan.
 
 ![White Population Increase Brooklyn](Images/brooklyn_map_white_change.png)
 
+![White Population Increase Manhattan](Images/manhattan_map_white_change.png)
+
+Both maps show an increase in neighborhoods that were predominantly minority neighborhoods. Harlem in Manhattan and Bedford-Stuyvesant in Brooklyn.
 
 
+### Income Level Changes
 
+Below you can see the change in income from 2000 to 2010 in Brooklyn and Manhattan.
 
+![Income Increase Brooklyn](Images/brooklyn_map_income_change.png)
+
+![Income Increase Manhattan](Images/manhattan_map_income_change.png)
+
+Most interesting to see is the incredible increase in **Hell's Kitchen** in Manhattan. What was previously train yards and undeveloped land is now luxury buildings. 
 

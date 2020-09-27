@@ -102,7 +102,7 @@ The data is unlabeled and as such is subject to unsupervised learning. I've empl
 
 Methods to cluster included:
 
-- Principal Components
+- Principal Components (KMeans)
 - Hierarchical Clustering
 - KMeans Clustering
 
@@ -137,4 +137,8 @@ In order to determine whether a cluster was viable, we used it's silhouette scor
 |-|-|
 |Hierarchical|0.03|
 |Hierarchical - Subset 1| 0.04|
-|-|-|
+|PCA - Subset 1|0.423|
+|PCA - Subset 2|0.43|
+|KMeans |0.07|
+|KMeans - Subset 2|.409|
+

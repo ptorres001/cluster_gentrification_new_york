@@ -134,7 +134,7 @@ Same as Subset 2 but also:
 In order to determine whether a cluster was viable, we used it's silhouette score. A silhouette score is the determination of the distance between points in a cluster against the distance to another cluster. 
 
 |Model | Silhouette Score|
-|------|-----------------|
+|-|-|
 |Hierarchical|0.03|
 |Hierarchical - Subset 1| 0.04|
-|------------------------
+|-|-|

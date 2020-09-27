@@ -137,8 +137,21 @@ In order to determine whether a cluster was viable, we used it's silhouette scor
 |-|-|
 |Hierarchical|0.03|
 |Hierarchical - Subset 1| 0.04|
-|PCA - Subset 1|0.423|
+|PCA - Subset 1|0.42|
 |PCA - Subset 2|0.43|
 |KMeans |0.07|
-|KMeans - Subset 2|.409|
+|KMeans - Subset 2|.40|
+
+
+
+
+# Further Recommendations 
+
+Gentrification leads to many complications that affect the most vulnerable at incredibly disproportionate rates. Using a model such as this – communities, activist groups, and even government agencies can help those in most need of affordable housing options. 
+
+# Next Steps
+
+The next thing that would contribute to this project would be the introduction of more recent data that can bring attention to neighborhoods that are currently going through this process. 
+
+The introduction of more recent data would allow us to take a closer look at the Bronx. Which is the least gentrified borough as of the current time. 
 

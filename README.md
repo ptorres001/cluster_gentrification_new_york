@@ -1,9 +1,10 @@
 # Detecting Gentrification in the Neighborhoods of New York City
 ## By Paul Torres
 
-The goal of this project is to build a model that will be able to detect which neighborhoods are undergoing the process of gentrification. 
 
 ## Project
+The goal of this project is to build a model that will be able to detect which neighborhoods are undergoing the process of gentrification. 
+
 The demographic makeup of neighborhoods in New York City can change dramatically in the years between the decennial national census'. Over the most recent decades, it has occurred because New York City has rebounded from the disastrous 1970's and areas have become desirable again. This means that what were once under served communities have become hot spots for development and expansion of upscale living. This phenomenon is known as gentrification. 
 
 
@@ -142,6 +143,10 @@ In order to determine whether a cluster was viable, we used it's silhouette scor
 |KMeans |0.07|
 |KMeans - Subset 2|.40|
 
+# Cluster Descriptions
+
+![Ellen & Ding](Images/ellen_ding_brooklyn_readme.png)![Cluster Brooklyn](Images/brooklyn_final_cluster_readme.png)
+
 
 # Academic Studies and Comparisons
 
@@ -158,6 +163,13 @@ At least a 10 point increase in ratio of census tract median to city median of:
 - White Population
 - College Educated Residents
 - Median Monthly Rent
+
+
+## Comparing Algorithm to the Academic Metrics
+
+
+
+
 
 # Further Recommendations 
 

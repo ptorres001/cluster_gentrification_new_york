@@ -145,7 +145,11 @@ In order to determine whether a cluster was viable, we used it's silhouette scor
 
 # Cluster Descriptions
 
-![Ellen & Ding](Images/ellen_ding_brooklyn_readme.png)![Cluster Brooklyn](Images/brooklyn_final_cluster_readme.png)
+The clustering algorithm used the percent changes of the different census tracts to group them together. Using only the best model, which was the PCA - Subset 2, as a guide – the clustering configuration was set at 3. Due to the limitations on the subset, it only took into account the final state of the census tracts. This means that there was no identification of potential change only identification of past change. 
+
+In summary, the 
+
+
 
 
 # Academic Studies and Comparisons
@@ -153,6 +157,8 @@ In order to determine whether a cluster was viable, we used it's silhouette scor
 Gentrification has been studied by anthropologists and urban designers in specific since the 1960's. Many have come up with metrics to use to determine if a neighborhood is vulnerable to gentrification of if it is currently undergoing gentrification. 
 
 We will be using one of the most recent studies by Ellen & Ding (2016) titled *Advancing Our Understanding of Gentrification*. In it they lay out metrics to be applied to census tracts. 
+
+![Ellen & Ding](Images/ellen_ding_brooklyn_readme.png)![Cluster Brooklyn](Images/brooklyn_final_cluster_readme.png)
 
 #### Potential to Gentrify
 - Mean family income falls below 40th percentile of metropolitan area

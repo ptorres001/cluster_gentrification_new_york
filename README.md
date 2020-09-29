@@ -147,7 +147,7 @@ In order to determine whether a cluster was viable, we used it's silhouette scor
 
 The clustering algorithm used the percent changes of the different census tracts to group them together. Using only the best model, which was the PCA - Subset 2, as a guide – the clustering configuration was set at 3. Due to the limitations on the subset, it only took into account the final state of the census tracts. This means that there was no identification of potential change only identification of past change. 
 
-In summary, the 
+Clustering is based on unsupervised learning so there were no labels given to the data. So the algorithms had to take into consideration the features provided and make clusters based on them. This means that the clusters are only based on the data provided and does not necessarily look forward.
 
 
 

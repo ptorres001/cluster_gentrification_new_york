@@ -158,9 +158,9 @@ Gentrification has been studied by anthropologists and urban designers in specif
 
 We will be using one of the most recent studies by Ellen & Ding (2016) titled *Advancing Our Understanding of Gentrification*. In it they lay out metrics to be applied to census tracts. However, while the clusters look at the census tracts as a snapshot – the metrics used by *Ellen & Ding* look towards possibilities. 
 
-![Brooklyn Comparison](Images/readme_brooklyn_results.png)
+![Brooklyn Comparison](Images/readme_brooklyn_results.png)  
 
-
+  
 ![Manhattan Comparison](Images/readme_manhattan_results.png)
 
 As you can see there is difference in the goals of the two maps is the **Stable** classification for the cluster and the 

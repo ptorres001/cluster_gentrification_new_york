@@ -156,9 +156,14 @@ Clustering is based on unsupervised learning so there were no labels given to th
 
 Gentrification has been studied by anthropologists and urban designers in specific since the 1960's. Many have come up with metrics to use to determine if a neighborhood is vulnerable to gentrification of if it is currently undergoing gentrification. 
 
-We will be using one of the most recent studies by Ellen & Ding (2016) titled *Advancing Our Understanding of Gentrification*. In it they lay out metrics to be applied to census tracts. 
+We will be using one of the most recent studies by Ellen & Ding (2016) titled *Advancing Our Understanding of Gentrification*. In it they lay out metrics to be applied to census tracts. However, while the clusters look at the census tracts as a snapshot – the metrics used by *Ellen & Ding* look towards possibilities. 
 
-![Ellen & Ding](Images/ellen_ding_brooklyn_readme.png)![Cluster Brooklyn](Images/brooklyn_final_cluster_readme.png)
+![Brooklyn Comparison](Images/readme_brooklyn_results.png)
+
+
+![Manhattan Comparison](Images/readme_manhattan_results.png)
+
+As you can see there is difference in the goals of the two maps is the **Stable** classification for the cluster and the 
 
 #### Potential to Gentrify
 - Mean family income falls below 40th percentile of metropolitan area

@@ -93,7 +93,7 @@ Below you can see the change in income from 2000 to 2010 in Brooklyn and Manhatt
 
 ![Income Increase Brooklyn](Images/brooklyn_map_income_change.png)
 
-![Income Increase Manhattan](Images/manhattan_map_income_change.png)
+![Income Increase Manhattan](Images/income_manhattan_tableau.png)
 
 Most interesting to see is the incredible increase in **Hell's Kitchen** in Manhattan. What was previously train yards and undeveloped land is now luxury buildings. 
 
@@ -141,7 +141,7 @@ In order to determine whether a cluster was viable, we used it's silhouette scor
 |PCA - Subset 1|0.42|
 |PCA - Subset 2|0.43|
 |KMeans |0.07|
-|KMeans - Subset 2|.40|
+|KMeans - Subset 2|0.40|
 
 # Cluster Descriptions
 
@@ -149,21 +149,12 @@ The clustering algorithm used the percent changes of the different census tracts
 
 Clustering is based on unsupervised learning so there were no labels given to the data. So the algorithms had to take into consideration the features provided and make clusters based on them. This means that the clusters are only based on the data provided and does not necessarily look forward.
 
-
-
-
 # Academic Studies and Comparisons
 
 Gentrification has been studied by anthropologists and urban designers in specific since the 1960's. Many have come up with metrics to use to determine if a neighborhood is vulnerable to gentrification of if it is currently undergoing gentrification. 
 
 We will be using one of the most recent studies by Ellen & Ding (2016) titled *Advancing Our Understanding of Gentrification*. In it they lay out metrics to be applied to census tracts. However, while the clusters look at the census tracts as a snapshot – the metrics used by *Ellen & Ding* look towards possibilities. 
 
-![Brooklyn Comparison](Images/readme_brooklyn_results.png)  
-
-  
-![Manhattan Comparison](Images/readme_manhattan_results.png)
-
-As you can see there is difference in the goals of the two maps is the **Stable** classification for the cluster and the 
 
 #### Potential to Gentrify
 - Mean family income falls below 40th percentile of metropolitan area
@@ -178,8 +169,16 @@ At least a 10 point increase in ratio of census tract median to city median of:
 
 ## Comparing Algorithm to the Academic Metrics
 
+Comparing the algorithm to the academic metrics, it is clear that while they are both looking at the same set of data and are considering different weights for classification. 
+
+For the algorithm generated clusters, it is clear that the change in percentages tell a story about a snapshot of a census tract. For the *Ellen & Ding* classifications, not only are they looking at the snapshot but also the 
 
 
+![Brooklyn Comparison](Images/readme_brooklyn_results.png)  
+
+As you can see there is difference in the goals of the two maps is the **Stable** classification for the cluster and the **Susceptible** classification for the academic standards. 
+  
+![Manhattan Comparison](Images/readme_manhattan_results.png)
 
 
 # Further Recommendations 

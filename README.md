@@ -16,6 +16,7 @@ Next, came the clustering of census tracts. Using the features, both given and e
 
 ## Repository Structure
 - Images -- contains images created during EDA and those linked in README
+- Helpers.py -- contains functions that helped with the automation of data cleaning
 - 01_Data_Cleaning_Processing -- contains all of the data cleaning steps and techniques with markdowns explaining reasoning
 - 02_EDA -- exploring all of the features and how they affect each other. 
 - 03_Clusters -- contains all the code that determine the gentrification level of census tracts while looking at other census tracts with similar feature levels

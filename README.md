@@ -81,9 +81,9 @@ Below we will examine some graphics on these metrics.
 
 Below you can see the change in the white population in Brooklyn and Manhattan.
 
-![White Population Increase Brooklyn](Images/brooklyn_map_white_change.png)
+![White Population Increase Brooklyn](Images/brooklyn_white_tableau.png)
 
-![White Population Increase Manhattan](Images/manhattan_map_white_change.png)
+![White Population Increase Manhattan](Images/manhattan_white_tableau.png)
 
 Both maps show an increase in neighborhoods that were predominantly minority neighborhoods. Harlem in Manhattan and Bedford-Stuyvesant in Brooklyn.
 
@@ -92,7 +92,7 @@ Both maps show an increase in neighborhoods that were predominantly minority nei
 
 Below you can see the change in income from 2000 to 2010 in Brooklyn and Manhattan.
 
-![Income Increase Brooklyn](Images/brooklyn_map_income_change.png)
+![Income Increase Brooklyn](Images/brooklyn_income_tableau.png)
 
 ![Income Increase Manhattan](Images/income_manhattan_tableau.png)
 

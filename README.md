@@ -192,3 +192,8 @@ The next thing that would contribute to this project would be the introduction o
 
 The introduction of more recent data would allow us to take a closer look at the Bronx. Which is the least gentrified borough as of the current time. 
 
+
+# Presentation
+
+If you would like to look at the deck for this project. Please go [here](https://github.com/ptorres001/cluster_gentrification_new_york/blob/master/Final_Project_Torres.pdf)
+
